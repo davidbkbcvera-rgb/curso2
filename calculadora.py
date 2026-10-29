@@ -1,0 +1,5 @@
+print("hola mundo")
+print("esta es una calculadora")
+a= int(input("ingrese el primer num"))
+b= int(input("ingrese el primer num"))
+print("la suma es : ",a+b)
