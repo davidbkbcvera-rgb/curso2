@@ -1,6 +1,10 @@
 print("hola mundo")
 print("esta es una calculadora")
-a= int(input("ingrese el primer num"))
-b= int(input("ingrese el primer num"))
-print("la suma es : ",a+b)
-print("la resta: ",a-b)
+a = int(input("Ingrese el primer numero: "))
+b = int(input("Ingrese el segundo numero: "))
+
+if b == 0:
+    print("No se puede dividir entre cero.")
+else:
+    print("La division es:", a / b)
+ 
